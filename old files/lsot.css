@@ -1,0 +1,29 @@
+.heading-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent
+}
+
+.image-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#line::before {
+  content: "";
+  display: block;
+  border-bottom: 1px solid black;
+}
+
+#heading {
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+    background: #C3C5DB;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
