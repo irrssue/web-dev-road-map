@@ -15,13 +15,29 @@
 h1 {
     background: blue;
     color: white;
+    width: auto;
 }
 
 div {
-    background: white;
-}
-
-body {
     background: black;
 }
 
+body {
+    background: gray;
+}
+
+p {
+    background: transparent;
+    color: white;
+    width: 200px;
+    height: 100px;
+}
+
+.sample {
+    background: black;
+    color: black;
+}
+
+#heading2 {
+    color: white;
+}
