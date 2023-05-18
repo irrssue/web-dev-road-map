@@ -1,0 +1,34 @@
+body {
+  background: gray;
+}
+
+.newlayout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+
+
+.newlayout div {
+    background: blue;
+    flex-basis: 400px;
+    border: 3px solid #51ff0d;
+    margin: 5px;
+    height: 400px;
+    
+}
+
+#first {
+    border: 2px solid black;
+    flex-shrink: 1px;
+}
+
+#whatdiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#what {
+    color: white;
+}
