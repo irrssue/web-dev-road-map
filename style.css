@@ -1,43 +1,29 @@
-/* #image {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
+.heading-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent
 }
 
-#image-div {
-    text-align: center;
-} */
-
-/* Intro to CSS- start learning */
-
-
-h1 {
-    background: blue;
-    color: white;
-    width: auto;
+.image-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-div {
-    background: black;
+#line::before {
+  content: "";
+  display: block;
+  border-bottom: 1px solid black;
+}
+
+#heading {
+  font-family: "Times New Roman", Times, serif;
 }
 
 body {
-    background: gray;
-}
-
-p {
-    background: transparent;
-    color: white;
-    width: 200px;
-    height: 100px;
-}
-
-.sample {
-    background: black;
-    color: black;
-}
-
-#heading2 {
-    color: white;
+    background: #C3C5DB;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
