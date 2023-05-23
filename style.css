@@ -25,7 +25,19 @@ p {
   border: 5px solid black;
 
   border: 5px solid black;
+  border-top: 10px dotted;
   border-top-color: azure;
   padding: 30px;
+  outline: 20px solid white;
+  outline-offset: -50px;
+}
+
+.circle {
+  margin: auto;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border: 10px double black;
+  border-radius: 50%;
 }
 
