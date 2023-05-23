@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100%;
+  background-color: aquamarine;
+}
+
+.head {
+  /* border: 1px dotted red; */
+  margin: 6em 3em 6em 3em;
+  padding: 2em;
+}
+
+.head h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+p {
+  font-size: 2rem;
+  border: 5px solid black;
+
+  border: 5px solid black;
+  border-top-color: azure;
+  padding: 30px;
+}
+
