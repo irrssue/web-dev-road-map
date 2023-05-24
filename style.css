@@ -1,0 +1,25 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  padding: 10%;
+  font-size: 2rem;
+  color: blue;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* input, button {
+  font: inherit;
+} */
+
+p {
+  text-indent: 2.5em;
+  line-height: 1.5;
+  word-spacing: 0.3em;
+  font-weight: 700;
+  font-style: normal;
+
+}
