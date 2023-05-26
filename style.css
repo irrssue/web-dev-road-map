@@ -1,0 +1,17 @@
+body {
+  padding: 25%;
+  font-size: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header, main {
+  text-align: center;
+}
+
+ol, ul {
+  list-style-type: decimal;
+  list-style-position: inside;
+  line-height: 1.5;
+  list-style-image: url(https://cdn-icons-png.flaticon.com/128/1442/1442912.png);
+}
+
