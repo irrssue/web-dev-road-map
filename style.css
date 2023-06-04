@@ -1,8 +1,16 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
 body {
   font-size: 1.5rem;
 }
 
-
-.columns {
-  column-count: 4;
+div {
+  columns: 250px 3;
+  column-rule: 3px solid black;
+  margin-top: 0;
 }
+
