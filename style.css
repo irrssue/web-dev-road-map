@@ -29,10 +29,12 @@ body {
 
   background-color: yellow;
   background-image: url("img/keith-misner-h0Vxgz5tyXA-unsplash.jpg");
+  background-size: cover;
+  background-repeat: repeat;
 }
 
 .h1 {
-  font-size: 500%;
+  font-size: 400%;
   color: white;
 }
 
