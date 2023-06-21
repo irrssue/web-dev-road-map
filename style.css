@@ -16,13 +16,32 @@ body {
   place-content: center;
 }
 
+.button {
+  padding: 1em;
+  background: var(--gradient);
+  color: var(--clr-neutral-100);
+  border: 0;
+  border-radius: .23rem;
+  font-size: 1.05rem;
+  cursor: pointer;
+  background-size: 100%;
+  transition: background-size 200ms, scale 200ms ease-in;
+}
+
+.button:hover,
+.button:focus {
+  background-size: 200%;
+  scale: 1.05;
+
+}
+
 .card {
   display: grid;
   grid-template-columns: 2rem 20rem 2rem;
   grid-template-rows: repeat(3, auto);
 }
 
-.hello {
+.card-heading {
   font-size: 1.35rem;
   font-weight: 400;
 }
@@ -50,16 +69,12 @@ body {
   padding: 2rem 4rem 4rem;
   grid-column: 2/3;
   grid-row: 2/4;
-  box-shadow: 0 0 1rem black;
+  box-shadow: 0 0 0.8rem black;
   border-radius: .5rem;
   
   display: grid;
   gap: 2rem;
 
-}
-
-h2 {
-  
 }
 
 
@@ -75,4 +90,30 @@ h2 {
 
 .rep-info > * {
   margin: 0;
+}
+
+.name {
+  font-size: 1.124rem;
+
+}
+
+.status {
+
+  font-size: 0.825rem;
+  border: 1px solid gray;
+  border-radius: 100vw;
+  width: max-content;
+  padding: .125em .71em;
+  margin-inline: auto;
+  opacity: .7;
+}
+
+.status::before {
+  content: '';
+  display: inline-block;
+  height: .7em;
+  border-radius: 50%;
+  margin-right: 5px;
+  aspect-ratio: 1 / 1;
+  background-color: rgba(0, 128, 0, 0.666); 
 }
