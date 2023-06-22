@@ -28,8 +28,7 @@ body {
   transition: background-size 200ms, scale 200ms ease-in;
 }
 
-.button:hover,
-.button:focus {
+.button:hover{
   background-size: 200%;
   scale: 1.05;
 
