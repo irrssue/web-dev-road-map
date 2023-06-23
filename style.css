@@ -12,8 +12,11 @@ body {
   background-image: linear-gradient(rgba(79, 79, 254, 0.591), white);
 }
 
-
+.root {
+  text-align: center;
+  max-width: 50vh;
+}
 
 .image {
-
+  border-radius: 40%;
 }
