@@ -1,15 +1,18 @@
 body {
-  width: 100vh;
+  height: 100vh;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  background-color: aqua;
+  flex-wrap: nowrap;
+  height: 100vh;
+  align-items: center;
 }
 
 
-.root {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-
-
-.root *{
-  margin: 50px auto 50px;
-  }
+.child {
+  flex-wrap: nowrap;
+  display: flex;
+}
