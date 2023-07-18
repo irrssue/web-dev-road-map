@@ -84,6 +84,8 @@ footer {
   body {
     background-color: rebeccapurple;
     background-image: radial-gradient(whitesmoke, rebeccapurple);
+    display: flex;
+    flex-direction: row;
   }
 }
 
