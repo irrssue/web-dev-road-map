@@ -1,9 +1,9 @@
 .box {
   height: 100vh;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
 }
 
 .realbox {
@@ -12,6 +12,21 @@
   width: 200px;
   animation: box 3.5s ease-in-out infinite;
   opacity: 10%;
+}
+
+.special {
+  animation: special 3.5s ease-in-out infinite;
+  opacity: 10%;
+}
+
+@keyframes special {
+  0% {
+    opacity: 10%;
+  }
+  100% {
+    opacity: 90%;
+    transform: rotate(180deg);
+  }
 }
 
 @keyframes box {
