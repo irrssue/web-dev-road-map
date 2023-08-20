@@ -1,32 +1,29 @@
 body {
   height: 100vh;
+  width: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 
-.line {  
-  width: 100px;
-  height: 100px;
-  animation: grow 3s ease-in-out infinite;
+.line {
+  height: 300px;
+  width: 300px;
+  background: black;
+
+  animation: background-change 3s ease-in-out 3 alternate forwards
 }
 
-@keyframes grow {
+@keyframes background-change {
   0% {
-    width: 100px;
-    height: 100px;
-    background: blue;
-  }
-  50% {
-    width: 10px;
-    height: 10px;
-    background:red;
+    height: 300px;
+    width: 300px;
   }
   100% {
-    width: 100px;
-    height: 100px;
-    background: blue;
+    height: 5%;
+    width: 5%;
   }
-  
 }
+
+
