@@ -9,7 +9,7 @@ body {
 .line {  
   width: 100px;
   height: 100px;
-  animation: grow 3s ease-in-out infinite alternate;
+  animation: grow 3s ease-in-out infinite;
 }
 
 @keyframes grow {
@@ -18,10 +18,15 @@ body {
     height: 100px;
     background: blue;
   }
-  100% {
+  50% {
     width: 10px;
     height: 10px;
     background:red;
+  }
+  100% {
+    width: 100px;
+    height: 100px;
+    background: blue;
   }
   
 }
