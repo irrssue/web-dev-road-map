@@ -1,16 +1,40 @@
-body {
-  height: 100vh;
+.title-wrapper {
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  transition: all 1s ease-out;
+}
+
+.title-wrapper:hover {
+  color: #1f93ff;
+}
+
+.menu {
   display: flex;
-  place-items: center;
-  justify-content: center;
+  gap: 30px;
+  justify-content: space-evenly;
 }
 
-.heading {
-  font-size: 40px;
-  transition: all 1s ease-in 1s;
+.menu-item {
+  transition: all 0.5s ease-out;
 }
 
-.heading:hover {
-  font-size: 10px;
-  color: green;
+.menu-item:hover {
+  font-size: 2.5em;
+  color: #1f93ff;
+}
+
+.menu * {
+  padding: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
 }
