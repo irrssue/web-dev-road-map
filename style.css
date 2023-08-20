@@ -1,44 +1,27 @@
 body {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-
-  animation: background-change 1s ease-in-out infinite alternate;
 }
 
-@keyframes background-change {
-  10% {
-    background: red;
-  }
-  20% {
+
+.line {  
+  width: 100px;
+  height: 100px;
+  animation: grow 3s ease-in-out infinite alternate;
+}
+
+@keyframes grow {
+  0% {
+    width: 100px;
+    height: 100px;
     background: blue;
   }
-  30% {
-    background: purple;
-  }
-  40% {
-    background: orange;
-  }
-  50% {
-    background: green;
-  }
-  60% {
-    background: black;
-  }
-  70% {
-    background: white;
-  }
-  80% {
-    background: skyblue;
-  }
-  90% {
-    background: red;
-  }
   100% {
-    background: rgb(142, 255, 132);
+    width: 10px;
+    height: 10px;
+    background:red;
   }
+  
 }
-
-
