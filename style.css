@@ -1,22 +1,24 @@
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
 }
 
 .box {
-  height: 100px;
-  width: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  width: 50px;
+  height: 50px;
   background: red;
-  animation: tran 2s ease infinite;
+  border: 1px solid black;
+  animation: transfrom 4s ease infinite alternate;
 }
 
-@keyframes tran {
+@keyframes transfrom {
   0% {
-    transform: rotate(0deg);
+    transform: scale(0, 0);
   }
-  50% {
-    transform: rotate(180deg);
+  100% {
+    transform: scale(5, 10) rotate(180deg);
   }
 }
