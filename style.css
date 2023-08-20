@@ -6,15 +6,11 @@ body {
 }
 
 .heading {
-  font-size: 30px;
-  color: black;
-
-  transition: color 0.5s ease;
-  
+  font-size: 40px;
+  transition: all 1s ease-in 1s;
 }
 
 .heading:hover {
-  font-size: 50px;
-
-  
+  font-size: 10px;
+  color: green;
 }
