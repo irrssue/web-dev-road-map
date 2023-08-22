@@ -1,42 +1,19 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 body {
   height: 100vh;
-  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.box {
+.logo {
   width: 50px;
   height: 50px;
   background: black;
-  animation: box 2s ease-in-out 1s 1 normal both;
+  transition: all 0.5s;
 }
 
-@keyframes box {
-  100% {
-    transform: translate(50vw, 50vh) scaleX(10) skew(0, 60deg);
-  }
-}
-
-.box-red {
-  background: red;
-}
-
-.box-blue {
-  background: blueviolet;
-}
-
-.box-green {
-  background: greenyellow;
-}
-
-.box-orange {
-  background: orange;
+.logo:hover {
+  background: gray;
+  width: 100px;
+  height: 100px;
 }
