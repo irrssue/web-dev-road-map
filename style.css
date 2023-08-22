@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  border: 3px solid black;
+  border-radius: 30px;
+  padding: 30px;
+  margin: 10px;
+
+}
+
+img {
+  height: 50px;
+  width: auto;
+}
+
+
+#first:hover, #second:hover, #thrid:hover, #forth:hover {
+  transition: all 0.3s ease;
+  background: rgba(128, 128, 128, 0.396);
+  border-radius: 50%;
+}
