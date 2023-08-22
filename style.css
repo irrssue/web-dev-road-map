@@ -14,7 +14,7 @@ body {
 
 @keyframes cube {
   50% {
-    transform: translate(-100px, 100px);
+    transform: translate(100px, -100px);
   }
   100% {
     transform: translate(100px, 100px);
