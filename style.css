@@ -9,7 +9,7 @@ body {
   width: 100px;
   height: 100px;
   background: black;
-  border-radius: 50%;
+  border-radius: 30px;
   animation: box 4s ease-in-out infinite alternate;
 }
 
@@ -56,16 +56,16 @@ body {
 
 @keyframes box {
   25% {
-    transform: translate(300px, -300px);
+    transform: translate(300px, -300px) rotate(90deg);
   }
   50% {
-    transform: translate(300px, 300px);
+    transform: translate(300px, 300px) rotate(180deg);
   }
   75% {
-    transform: translate(-300px, 300px);
+    transform: translate(-300px, 300px) rotate(270deg);
   }
   100% {
-    transform: translate(-300px, -300px);
+    transform: translate(-300px, -300px) rotate(360deg);
  } 
 }
 
