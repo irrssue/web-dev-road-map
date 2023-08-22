@@ -9,6 +9,7 @@ body {
   width: 100px;
   height: 100px;
   background: black;
+  border-radius: 50%;
   animation: box 4s ease-in-out infinite alternate;
 }
 
