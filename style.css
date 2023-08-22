@@ -9,14 +9,44 @@ body {
   width: 100px;
   height: 100px;
   background: black;
-  animation: cube 2s ease-in-out infinite alternate;
+  animation: box 2s ease-in-out infinite alternate;
 }
 
-@keyframes cube {
-  50% {
+.box2 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: absolute;
+  animation: box2 2s ease-in-out 0.2s infinite alternate;
+}
+
+
+@keyframes box {
+  25% {
     transform: translate(100px, -100px);
   }
-  100% {
+  50% {
     transform: translate(100px, 100px);
+  }
+  75% {
+    transform: translate(-100px, 100px);
+  }
+  100% {
+    transform: translate(-100px, -100px);
+ } 
+}
+
+@keyframes box2 {
+  25% {
+    transform: translate(100px, -100px);
+  }
+  50% {
+    transform: translate(100px, 100px);
+  }
+  75% {
+    transform: translate(-100px, 100px);
+  }
+  100% {
+    transform: translate(-100px, -100px);
  } 
 }
