@@ -20,3 +20,33 @@ input, button, textarea {
   font: inherit;
 }
 
+
+
+/* VARIABLE */
+
+:root {
+  --FONT-FAMILY: "Nunito", sans-serif;
+  --FONT-FAMILY-HEADINGS: "Fugaz One", cursive;
+  --FONT-SIZE: clamp(1rem, 2.2vh, 1.5rem) /* minimal value, prefere value, largest value */
+
+  --BGCOLOR: orange;
+  --BGCOLOR-FADE: rgb(252, 220, 160);
+  --BGIMAGE: linear-gradient(to bottom, var(--BGCOLOR), var(--BGCOLOR-FADE));
+  --BODY-BGCOLOR: white;
+  --FONT-COLOR: black;
+}
+
+/* CLASSES */
+
+.offscreen {
+  position: absolute;
+  left: -1000000px;
+}
+
+.nowarp {
+  white-space: nowrap;
+}
+
+.center {
+  text-align: center;
+}
