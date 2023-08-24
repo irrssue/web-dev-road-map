@@ -27,13 +27,20 @@ input, button, textarea {
 :root {
   --FONT-FAMILY: "Nunito", sans-serif;
   --FONT-FAMILY-HEADINGS: "Fugaz One", cursive;
-  --FONT-SIZE: clamp(1rem, 2.2vh, 1.5rem) /* minimal value, prefere value, largest value */
+  --FONT-SIZE: clamp(1rem, 2.2vh, 1.5rem); /* minimal value, prefere value, largest value */
 
   --BGCOLOR: orange;
   --BGCOLOR-FADE: rgb(252, 220, 160);
   --BGIMAGE: linear-gradient(to bottom, var(--BGCOLOR), var(--BGCOLOR-FADE));
   --BODY-BGCOLOR: white;
   --FONT-COLOR: black;
+  --HIGHLIGHT-COLOR: rgb(51,178,51);
+  --LINK-COLOR: black;
+  --LINK-HOVER: hsla(0,0%,0%,0.6);
+  --LINK-ACTIVE: orange;
+
+  --BORDER-COLOR: #333;
+  --BORDERS: 1px solid var(--BORDER-COLOR)
 }
 
 /* CLASSES */
@@ -49,4 +56,59 @@ input, button, textarea {
 
 .center {
   text-align: center;
+}
+
+
+/* GENERAL STYLE */
+
+html {
+  scroll-behavior: smooth;
+  font-size: var(--FONT-SIZE);
+  font-family: var(--FONT-FAMILY);
+  background-color: var(--BGCOLOR);
+  background-image: var(--BGIMAGE);
+}
+
+body {
+  background-color: var(--BODY-BGCOLOR);
+  color: var(--FONT-COLOR);
+  min-height: 100vh;
+  max-width: 800px;
+  margin: auto;
+
+  border-left: var(--BORDERS);
+  border-right: var(--BORDERS);
+
+  box-shadow: 0 0 10px var(--BORDER-COLOR);
+}
+
+h1,h2,h3 {
+  font-family: var(--FONT-FAMILY-HEADINGS);
+  letter-spacing: 0.1em;
+}
+
+h2, h3 {
+  margin-bottom: 1em;
+  color: var(--HIGHLIGHT-COLOR);
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:any-link{
+  color: var(--LINK-COLOR);
+}
+
+a:hover,
+a:focus-visible {
+  color: var(--LINK-HOVER);
+}
+
+a:active {
+  color: var(--LINK-ACTIVE);
 }
