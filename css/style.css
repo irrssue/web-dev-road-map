@@ -57,6 +57,8 @@ input, button, textarea {
   --BORDER-COLOR: #333;
   --BORDERS: 1px solid var(--BORDER-COLOR);
 
+  --BORDER-RADIUS: 15px;
+
 
   /* standard padding */
   --PADDING-TOP-BOTTOM: 0.25em;
@@ -232,4 +234,18 @@ a:active {
 .main__article:last-child {
   min-height: calc(100vh - 20rem);
 
+}
+
+.backtotop {
+  text-align: center;
+  border: 1px solid black;
+  width: 30%;
+  margin: auto;
+  padding: 10px;
+  margin-top: 70px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.backtotop:hover {
+  box-shadow: 0.5px 0.5px 1px black;
 }
