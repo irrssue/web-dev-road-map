@@ -1,0 +1,10 @@
+.footer {
+  position: sticky;
+  bottom: 0;  /* so this thing stay in bottom */
+  background-color: var(--HEADER-BGCOLOR);
+  color: var(--HEADER-COLOR);
+  padding: var(--PADDING-TOP-BOTTOM) var(--PADDING-SIDE);
+
+  text-align: center;
+}
+
