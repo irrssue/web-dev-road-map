@@ -8,13 +8,14 @@
     <title>Contact - LTS</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
-    <header>
-        <h1>Contact</h1>
-        <nav>
-            <ul>
+    <header class="header">
+        <h1 class="header__h1">Contact</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
                 <li>
                     <a href="/">Home</a>
                 </li>
@@ -22,7 +23,7 @@
                     <a href="/#menu">Menu</a>
                 </li>
                 <li>
-                    <a href="hours.html">Store Hours</a>
+                    <a href="hours.html">Hours</a>
                 </li>
                 <li>
                     <a href="about.html">About</a>
@@ -41,8 +42,18 @@
             </figcaption>
         </figure>
     </section>
-    <main>
-        <section>
+
+    <main class="main">
+        <article class="main__article">
+            <h2>Our Location</h2>
+            <address>
+                555 Taco Temptation Lane, Suite T<br>
+                Kansas City, MO 55555-5555
+                <br><br>
+                Phone: <a href="tel:+5555555555">555-555-5555</a>
+            </address>
+        </article>
+        <article class="main__article">
             <h2>Our Contact Form</h2>
 
             <form action="https://httpbin.org/get" method="get">
@@ -66,20 +77,13 @@
                 <button type="submit">Send</button>
                 <button type="reset">Reset</button>
             </form>
-        </section>
-        <section>
-            <h2>Our Location</h2>
-            <address>
-                555 Taco Temptation Lane, Suite T<br>
-                Kansas City, MO 55555-5555
-                <br><br>
-                Phone: <a href="tel:+5555555555">555-555-5555</a>
-            </address>
-        </section>
+        </article>
     </main>
     <hr>
-    <footer>
-        <p>Copyright &copy; The Little Taco Shop</p>
+    <footer class="footer">
+        <p>
+            <span class="nowarp">Copyright &copy;</span>
+            <span class="nowarp">The Little Taco Shop</span></p>
     </footer>
 </body>
 
