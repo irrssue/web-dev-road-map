@@ -1,0 +1,8 @@
+
+.about__trivia {
+  margin: var(--MARGIN);
+}
+
+.about__trivia-answer {
+  margin-top: 1em;
+}
