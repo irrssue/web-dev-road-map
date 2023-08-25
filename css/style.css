@@ -249,3 +249,14 @@ a:active {
 .backtotop:hover {
   box-shadow: 0.5px 0.5px 1px black;
 }
+
+
+
+@media screen and (min-width: 578px) {
+  .header__h1::before {
+    content: "🌮 ";
+  }
+  .header__h1::after {
+    content: " 🌮";
+  }
+}
