@@ -48,7 +48,12 @@ table {
 }
 
 body {
-  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+  min-height: 100vh;
   background-color: rgba(77, 175, 255, 0.518);
 }
 
