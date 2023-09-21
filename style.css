@@ -21,7 +21,7 @@ body {
 
   padding: 30px;
   margin: auto;
-  width: 60%;
+  min-width: 30%;
 
   display: flex;
 
@@ -31,7 +31,7 @@ body {
 .first, 
 .second,
 .third {
-  width: 100%;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,6 +40,8 @@ body {
   border-right: 1px solid #00000039;
 
   padding: 0 50px;
+
+  margin: auto;
 
 }
 
@@ -137,4 +139,39 @@ button {
 button:hover {
   background: black;
   color: white;
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    min-width: 30%;
+    margin: auto;
+  }
+
+  .first, .second, .third {
+    min-width: 40%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .container {
+    padding: 30px 20px;
+    margin: auto;
+    width: 100%;
+
+    flex-direction: column;
+
+    border-radius: 0;
+  }
+
+  .first, .second {
+    border-right: none;
+  }
+  .third {
+    border-left: none;
+  }
+
+  img {
+    margin-top: 40px;
+  }
+
 }
