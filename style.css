@@ -1,3 +1,28 @@
-.container-sm {
-  margin: auto;
+body {
+  background: #f5d9d5;
+  font-family: "Nunito", sans-serif;
+}
+
+#mainNavBar .navbar-brand {
+  color: #EA1C2C;
+
+}
+
+#mainNavBar .nav-link {
+  color: white;
+}
+
+#mainNavBar .nav-link:hover {
+  color: #EA1C2C;
+}
+
+#mainNavBar * {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+#mainNavBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
