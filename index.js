@@ -1,3 +1,9 @@
-for (i = 2; i <= 10; i += 2) {
-  console.log(i);
+let user = []
+
+
+for (let i = 0; i <= 20; i += 2) {
+  user.push(i);
+  if (i == 20) {
+    console.log(user);
+  }
 }
