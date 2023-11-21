@@ -33,11 +33,11 @@ while (!maxnumber) {
 
 const targetno = Math.floor(Math.random() * maxnumber) + 1;
 let guess = parseInt(prompt("Enter your first guess: "));
+let attamps = 1;
 
-let attamps = 0;
-
-while (guess !== targetno) {
+while (parseInt(guess) !== targetno) {
   if (guess === "q") {
+    attamps--;
     console.log(`The answer was ${targetno}`);
     console.log(`it took you ${attamps} attempts`);
     console.log("BYE");
@@ -45,14 +45,14 @@ while (guess !== targetno) {
   }
   attamps++
   if (guess > targetno) {
-    guess = parseInt(prompt("High, enter a new guess: "));
+    guess = prompt("High, enter a new guess: ");
     if (guess == targetno) {
       console.log(`Correct! the answer was ${targetno}`);
       console.log(`it took you ${attamps} attamps`);
       break
     }
   } else {
-    guess = parseInt(prompt("Low Enter a new guess: "));
+    guess = prompt("Low Enter a new guess: ");
     if (guess == targetno) {
       console.log(`Correct! the answer was ${targetno}`);
       console.log(`it took you ${attamps} attamps`);
