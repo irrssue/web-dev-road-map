@@ -68,12 +68,26 @@
 //     console.log(value);
 // }
 
-const socre = {
-  name: "kenny",
-  age: 15,
-  howhedoing: "good",
+// const socre = {
+//   name: "kenny",
+//   age: 15,
+//   howhedoing: "good",
+// }
+
+// for (let use of Object.keys(socre)) {
+//   console.log(use);
+// }
+
+// to do list project
+
+let user = prompt("Enter something");
+const todos = ["Clean the room",];
+
+while (user !== "quit" && user !== "q") {
+  if (user.toLowerCase() === "list") {
+    console.log("This is in list");
+  }
+  user = prompt("Enter something");
 }
 
-for (let use of Object.keys(socre)) {
-  console.log(use);
-}
+console.log("You out");
