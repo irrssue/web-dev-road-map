@@ -81,13 +81,28 @@
 // to do list project
 
 let user = prompt("Enter something");
-const todos = ["Clean the room",];
+const todos = ["Clean the room", "Wash the car", "Wtf",];
 
 while (user !== "quit" && user !== "q") {
   if (user.toLowerCase() === "list") {
-    console.log("This is in list");
+    console.log("IN LIST **********************");
+    for (let i = 0; i < todos.length; i++) {
+      console.log(`${i}: ${todos[i]}`);
+    }
+    console.log("END OF LIST **********************");
+  } else if (user === "new") {
+    const newuser = prompt("What is the new todo?: ");
+    todos.push(newuser);
+    console.log(`${newuser} added to the list`);
+  } else if (user === "delete") {
+    const index = prompt("What do you want to del (add no.): ");
+    console.log(todos.splice(index, 1));
+
   }
   user = prompt("Enter something");
 }
 
+
+
+console.log("********************************************");
 console.log("You out");
