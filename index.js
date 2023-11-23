@@ -80,7 +80,7 @@
 
 // to do list project
 
-let user = prompt("Enter something");
+let user = prompt("Enter Command");
 const todos = ["Clean the room", "Wash the car", "Wtf",];
 
 while (user !== "quit" && user !== "q") {
@@ -96,8 +96,13 @@ while (user !== "quit" && user !== "q") {
     console.log(`${newuser} added to the list`);
   } else if (user === "delete") {
     const index = prompt("What do you want to del (add no.): ");
-    console.log(todos.splice(index, 1));
-
+    parseInt(index);
+    if (!Number.isNaN(index)) {
+      const delted = todos.splice(index, 1);
+      console.log(`Ok, delted ${delted[0]}`)
+    } else {
+      console.log("Not a number nigga wtf?")
+    }
   }
   user = prompt("Enter something");
 }
