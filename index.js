@@ -210,12 +210,18 @@
 // console.log(lastElement([1])); // Output: 1
 // console.log(lastElement([])); // Output: null
 
-function lastElement(array) {
-  if (array.length === 0) {
-    return null
-  } else {
-    return array[array.length - 1]
-  }
-};
+// function lastElement(array) {
+//   if (array.length === 0) {
+//     return null
+//   } else {
+//     return array[array.length - 1]
+//   }
+// };
 
-console.log(lastElement([3, 5, 7]));
+// console.log(lastElement([3, 5, 7]));
+
+function capitalize(stringto) {
+  return stringto.charAt(0).toUpperCase() + stringto.slice(1);
+}
+
+console.log(capitalize("idk"));
