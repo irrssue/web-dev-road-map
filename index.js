@@ -114,15 +114,22 @@
 // console.log("You out");
 
 
-function Thiswillconsoleout() {
-  console.log("ikd");
+// function Thiswillconsoleout() {
+//   console.log("ikd");
+// }
+
+// Thiswillconsoleout();
+// Thiswillconsoleout();
+// Thiswillconsoleout();
+// Thiswillconsoleout();
+
+
+
+function printHeart(user) {
+  console.log("<3");
+  console.log(`Hello ${user}`)
 }
 
-Thiswillconsoleout();
-Thiswillconsoleout();
-Thiswillconsoleout();
-Thiswillconsoleout();
-
-
+printHeart("Tim");
 
 
