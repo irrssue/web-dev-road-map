@@ -169,8 +169,19 @@
 
 // isSnakeEyes(1, 5); 
 
-function multiply(x, y) {
-  return x * y;
+// function multiply(x, y) {
+//   return x * y;
+// }
+
+// multiply(2, 3);
+
+
+function isShortsWeather(temperature) {
+  if (temperature >= 75) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
-multiply(2, 3);
+console.log(isShortsWeather(48));
