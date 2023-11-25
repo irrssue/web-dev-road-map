@@ -159,12 +159,18 @@
 // repeatThis("hi", 3);
 // repeatThis("Hello", 100);
 
-function isSnakeEyes(no1, no2) {
-  if (no1 === 1 && no2 === 1) {
-    console.log("Snake Eyes!");
-  } else {
-    console.log("Not Snake Eyes!");
-  }
+// function isSnakeEyes(no1, no2) {
+//   if (no1 === 1 && no2 === 1) {
+//     console.log("Snake Eyes!");
+//   } else {
+//     console.log("Not Snake Eyes!");
+//   }
+// }
+
+// isSnakeEyes(1, 5); 
+
+function multiply(x, y) {
+  return x * y;
 }
 
-isSnakeEyes(1, 5);
+multiply(2, 3);
