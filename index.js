@@ -176,12 +176,46 @@
 // multiply(2, 3);
 
 
-function isShortsWeather(temperature) {
-  if (temperature >= 75) {
-    return true;
-  } else {
-    return false;
-  }
-}
+// function isShortsWeather(temperature) {
+//   if (temperature >= 75) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
 
-console.log(isShortsWeather(48));
+// isShortsWeather(80);
+
+// function lastElement(list) {
+//   if (list.length === 0) {
+//     return null;
+//   } else {
+//     return list[list.length - 1];
+//   }
+// };
+
+// console.log(lastElement(3, 5, 7));
+
+
+// function lastElement(arr) {
+//   if (arr.length === 0) {
+//     return null;
+//   } else {
+//     return arr[arr.length - 1];
+//   }
+// }
+
+// // Test cases
+// console.log(lastElement([3, 5, 7])); // Output: 7
+// console.log(lastElement([1])); // Output: 1
+// console.log(lastElement([])); // Output: null
+
+function lastElement(array) {
+  if (array.length === 0) {
+    return null
+  } else {
+    return array[array.length - 1]
+  }
+};
+
+console.log(lastElement([3, 5, 7]));
