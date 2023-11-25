@@ -133,9 +133,17 @@
 // printHeart("Tim");
 
 
-function turnThisIntoNumbers(number) {
-  console.log(`The square of it ${number * number}`);
-  console.log(`The trial of it ${number * number * number}`);
+// function turnThisIntoNumbers(number) {
+//   console.log(`The square of it ${number * number}`);
+//   console.log(`The trial of it ${number * number * number}`);
+// }
+
+// turnThisIntoNumbers(4);
+
+function rant(message) {
+  for (let i = 1; i < 4; i++) {
+    console.log(message.toUpperCase());
+  }
 }
 
-turnThisIntoNumbers(4);
+rant("I hate beets");
