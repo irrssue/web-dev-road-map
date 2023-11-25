@@ -125,11 +125,17 @@
 
 
 
-function printHeart(user) {
-  console.log("<3");
-  console.log(`Hello ${user}`)
+// function printHeart(user) {
+//   console.log("<3");
+//   console.log(`Hello ${user}`)
+// }
+
+// printHeart("Tim");
+
+
+function turnThisIntoNumbers(number) {
+  console.log(`The square of it ${number * number}`);
+  console.log(`The trial of it ${number * number * number}`);
 }
 
-printHeart("Tim");
-
-
+turnThisIntoNumbers(4);
