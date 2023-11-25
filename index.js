@@ -140,10 +140,31 @@
 
 // turnThisIntoNumbers(4);
 
-function rant(message) {
-  for (let i = 1; i < 4; i++) {
-    console.log(message.toUpperCase());
+// function rant(message) {
+//   for (let i = 1; i < 4; i++) {
+//     console.log(message.toUpperCase());
+//   }
+// }
+
+// rant("I hate beets");
+
+// function repeatThis(message, number) {
+//   let result = " ";
+//   for (let i = 0; i < number; i++) {
+//     result += message;
+//   }
+//   console.log(result);
+// }
+
+// repeatThis("hi", 3);
+// repeatThis("Hello", 100);
+
+function isSnakeEyes(no1, no2) {
+  if (no1 === 1 && no2 === 1) {
+    console.log("Snake Eyes!");
+  } else {
+    console.log("Not Snake Eyes!");
   }
 }
 
-rant("I hate beets");
+isSnakeEyes(1, 5);
