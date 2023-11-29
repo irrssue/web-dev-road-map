@@ -220,8 +220,19 @@
 
 // console.log(lastElement([3, 5, 7]));
 
-function capitalize(stringto) {
-  return stringto.charAt(0).toUpperCase() + stringto.slice(1);
+// function capitalize(toString) {
+//   return toString[0].toUpperCase() + toString.slice(1);
+// }
+
+// console.log(capitalize("saw thura zaw"));
+
+function sumofarry(array) {
+  let sum = 0;
+  for (let i = 0; i < array.length; i++) {
+    sum += array[i];
+  }
+
+  return sum;
 }
 
-console.log(capitalize("idk"));
+console.log(sumofarry([2, 3, 2]));
