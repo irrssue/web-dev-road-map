@@ -226,13 +226,35 @@
 
 // console.log(capitalize("saw thura zaw"));
 
-function sumofarry(array) {
-  let sum = 0;
-  for (let i = 0; i < array.length; i++) {
-    sum += array[i];
-  }
+// function sumofarry(array) {
+//   let sum = 0;
+//   for (let i = 0; i < array.length; i++) {
+//     sum += array[i];
+//   }
 
-  return sum;
+//   return sum;
+// }
+
+// console.log(sumofarry([2, 3, 2]));
+
+function returnDay(number) {
+  let arrayOfDay = {
+    0: null,
+    1: "Monday",
+    2: "Tuesday",
+    3: "Wedenesday",
+    4: "Thursday",
+    5: "Friday",
+    6: "Saturday",
+    7: "Sunday",
+  }
+  if (number >= 1 && number <= 7) {
+    return arrayOfDay[number];
+  } else {
+    return null;
+  }
 }
 
-console.log(sumofarry([2, 3, 2]));
+console.log(returnDay(3))
+console.log(returnDay(0))
+console.log(returnDay(8))
