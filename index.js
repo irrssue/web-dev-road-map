@@ -237,24 +237,34 @@
 
 // console.log(sumofarry([2, 3, 2]));
 
-function returnDay(number) {
-  let arrayOfDay = {
-    0: null,
-    1: "Monday",
-    2: "Tuesday",
-    3: "Wedenesday",
-    4: "Thursday",
-    5: "Friday",
-    6: "Saturday",
-    7: "Sunday",
-  }
-  if (number >= 1 && number <= 7) {
-    return arrayOfDay[number];
-  } else {
-    return null;
-  }
+// function returnDay(number) {
+//   let arrayOfDay = {
+//     0: null,
+//     1: "Monday",
+//     2: "Tuesday",
+//     3: "Wedenesday",
+//     4: "Thursday",
+//     5: "Friday",
+//     6: "Saturday",
+//     7: "Sunday",
+//   }
+//   if (number >= 1 && number <= 7) {
+//     return arrayOfDay[number];
+//   } else {
+//     return null;
+//   }
+// }
+
+// console.log(returnDay(3))
+// console.log(returnDay(0))
+// console.log(returnDay(8))
+
+
+let outSideOf = 0;
+
+function brokindof() {
+  outSideOf = 4;
 }
 
-console.log(returnDay(3))
-console.log(returnDay(0))
-console.log(returnDay(8))
+brokindof();
+console.log(outSideOf);
