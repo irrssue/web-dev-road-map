@@ -260,11 +260,17 @@
 // console.log(returnDay(8))
 
 
-let outSideOf = 0;
+// let outSideOf = 0;
 
-function brokindof() {
-  outSideOf = 4;
+// function brokindof() {
+//   outSideOf = 4;
+// }
+
+// brokindof();
+// console.log(outSideOf);
+
+const add = function (x, y) {
+  return x + y;
 }
 
-brokindof();
-console.log(outSideOf);
+console.log(add(3, 5));
