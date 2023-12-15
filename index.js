@@ -284,4 +284,23 @@
 
 // console.log(add(3, 5));
 
+// const func = {
+//   multiply: function (x, y) {
+//     return x * y;
+//   }
+// }
 
+// console.log(func.multiply(2, 4));
+
+
+const square = {
+  area: function (x) {
+    return x * x;
+  },
+  primeter: function (x) {
+    return x * 4;
+  }
+}
+
+console.log(square.area(10));
+console.log(square.primeter(10));
