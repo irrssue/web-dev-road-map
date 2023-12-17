@@ -311,12 +311,27 @@
 // function thisisit() { console.log(this) };
 // thisisit();
 
-const thisisperson = {
-  name: "Person",
-  age: 14,
-  greeting: function () {
-    console.log(`${this.name} is ${this.age} years old`);
+// const thisisperson = {
+//   name: "Person",
+//   age: 14,
+//   greeting: function () {
+//     console.log(`${this.name} is ${this.age} years old`);
+//   }
+// }
+
+// thisisperson.greeting();
+
+const hen = {
+  name: "Helen",
+  eggCount: 0,
+  layAnEgg: function () {
+    this.eggCount++;
+    return "EGG";
   }
 }
 
-thisisperson.greeting();
+console.log(hen.name);
+console.log(hen.eggCount);
+console.log(hen.layAnEgg());
+console.log(hen.layAnEgg());
+console.log(hen.eggCount);
