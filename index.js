@@ -321,17 +321,25 @@
 
 // thisisperson.greeting();
 
-const hen = {
-  name: "Helen",
-  eggCount: 0,
-  layAnEgg: function () {
-    this.eggCount++;
-    return "EGG";
-  }
-}
+// const hen = {
+//   name: "Helen",
+//   eggCount: 0,
+//   layAnEgg: function () {
+//     this.eggCount++;
+//     return "EGG";
+//   }
+// }
 
-console.log(hen.name);
-console.log(hen.eggCount);
-console.log(hen.layAnEgg());
-console.log(hen.layAnEgg());
-console.log(hen.eggCount);
+// console.log(hen.name);
+// console.log(hen.eggCount);
+// console.log(hen.layAnEgg());
+// console.log(hen.layAnEgg());
+// console.log(hen.eggCount);
+
+// TODO: array methods
+
+const numbers = [1, 2, 3, 4, 5, 3, 2, 2, 2, 3, 2, 3,];
+
+numbers.forEach(function (no) {
+  console.log(no  * no);
+})
