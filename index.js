@@ -293,14 +293,20 @@
 // console.log(func.multiply(2, 4));
 
 
-const square = {
-  area: function (x) {
-    return x * x;
-  },
-  primeter: function (x) {
-    return x * 4;
-  }
-}
+// const square = {
+//   area: function (x) {
+//     return x * x;
+//   },
+//   primeter: function (x) {
+//     return x * 4;
+//   }
+// }
 
-console.log(square.area(10));
-console.log(square.primeter(10));
+// console.log(square.area(10));
+// console.log(square.primeter(10));
+
+// TODO: "This" Key Word
+
+
+function thisisit() { console.log(this) };
+thisisit();
