@@ -308,5 +308,15 @@
 // TODO: "This" Key Word
 
 
-function thisisit() { console.log(this) };
-thisisit();
+// function thisisit() { console.log(this) };
+// thisisit();
+
+const thisisperson = {
+  name: "Person",
+  age: 14,
+  greeting: function () {
+    console.log(`${this.name} is ${this.age} years old`);
+  }
+}
+
+thisisperson.greeting();
