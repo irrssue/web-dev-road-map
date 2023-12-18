@@ -351,8 +351,20 @@
 // }));
 
 
-const number = [1, 2, 1, 2, 13, 1, 3, 1,];
+// const number = [1, 2, 1, 2, 13, 1, 3, 1,];
 
-for (let i in number) {
-  console.log(number[i] * 2);
-}
+// for (let i in number) {
+//   console.log(number[i] * 2);
+// }
+
+const number = [
+  "This is pretty shit"
+]
+
+const tobe = (number.map(function (x) {
+  return x.toUpperCase();
+}))
+
+
+console.log(tobe);
+
