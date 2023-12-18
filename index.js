@@ -338,8 +338,14 @@
 
 // TODO: array methods
 
-const numbers = [1, 2, 3, 4, 5, 3, 2, 2, 2, 3, 2, 3,];
+// const numbers = [1, 2, 3, 4, 5, 3, 2, 2, 2, 3, 2, 3,];
 
-numbers.forEach(function (no) {
-  console.log(no  * no);
-})
+// numbers.forEach(function (no) {
+//   console.log(no  * no);
+// })
+
+const number = [1, 1, 2, 3, 2, 3, 2, 3, 2, 21,];
+
+console.log(number.map(function (num) {
+  return num;
+}));
