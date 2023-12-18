@@ -344,8 +344,15 @@
 //   console.log(no  * no);
 // })
 
-const number = [1, 1, 2, 3, 2, 3, 2, 3, 2, 21,];
+// const number = [1, 1, 2, 3, 2, 3, 2, 3, 2, 21,];
 
-console.log(number.map(function (num) {
-  return num;
-}));
+// console.log(number.map(function (num) {
+//   return num;
+// }));
+
+
+const number = [1, 2, 1, 2, 13, 1, 3, 1,];
+
+for (let i in number) {
+  console.log(number[i] * 2);
+}
