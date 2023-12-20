@@ -369,20 +369,29 @@
 // console.log(tobe);
 
 
-const lists = [
-  {
-    title: "Hello",
-    is: true,
-  },
-  {
-    title: "what is this",
-    is: false,
-  }
-]
+// const lists = [
+//   {
+//     title: "Hello",
+//     is: true,
+//   },
+//   {
+//     title: "what is this",
+//     is: false,
+//   }
+// ]
 
 
-const user = lists.map(function (list) {
-  return list.title.toUpperCase();
-})
+// const user = lists.map(function (list) {
+//   return list.title.toUpperCase();
+// })
 
-console.log(user);
+// console.log(user);
+
+// DO NOT ALTER THE FOLLOWING CODE:
+const fullNames = [{first: 'Albus', last: 'Dumbledore'}, {first: 'Harry', last: 'Potter'}, {first: 'Hermione', last: 'Granger'}, {first: 'Ron', last: 'Weasley'}, {first: 'Rubeus', last: 'Hagrid'}, {first: 'Minerva', last: 'McGonagall'}, {first: 'Severus', last: 'Snape'}];
+
+// Write your code here
+
+const firstNames = fullNames.map(name => name.first);
+
+console.log(firstNames);
