@@ -357,14 +357,32 @@
 //   console.log(number[i] * 2);
 // }
 
-const number = [
-  "This is pretty shit"
+// const number = [
+//   "This is pretty shit"
+// ]
+
+// const tobe = (number.map(function (x) {
+//   return x.toUpperCase();
+// }))
+
+
+// console.log(tobe);
+
+
+const lists = [
+  {
+    title: "Hello",
+    is: true,
+  },
+  {
+    title: "what is this",
+    is: false,
+  }
 ]
 
-const tobe = (number.map(function (x) {
-  return x.toUpperCase();
-}))
 
+const user = lists.map(function (list) {
+  return list.title.toUpperCase();
+})
 
-console.log(tobe);
-
+console.log(user);
