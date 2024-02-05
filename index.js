@@ -400,6 +400,28 @@
 
 // console.log(add(4, 5));
 
-const rolldie = () => Math.floor(Math.random() * 6) + 1;
+// const rolldie = () => Math.floor(Math.random() * 6) + 1;
 
 // so this is workig
+
+// const roll = () => Math.floor(Math.random() * 10000) + 1000;
+
+// console.log(roll())
+
+// const movies = [
+//   {
+//     title: "I fall for you",
+//     rating: 90,
+//   },
+//   {
+//     title: "I don't know what this mean",
+//     rating: 60,
+//   }
+// ]
+
+// const moviesrate = movies.map((movie) => {
+//   return `${movie.title} - ${movie.rating / 10}`
+// })
+
+// console.log(moviesrate);
+
