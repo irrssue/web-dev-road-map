@@ -426,13 +426,6 @@
 // console.log(moviesrate);
 
 
-let checkinterval = setInterval(() => {
-  let numbers = Math.floor(Math.random() * 100) + 1;
-  console.log(numbers)
-  if (numbers === 99) {
-    console.log(`Number ${numbers} found stop the loop}`)
-    clearInterval(checkinterval);
-  } else {
-    console.log(numbers);
-  }
-}, 50);
+setTimeout(() => {
+  console.log("Hello")
+}, 500);
