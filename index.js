@@ -266,7 +266,6 @@
 
 // console.log(returnDay(3))
 // console.log(returnDay(0))
-// console.log(returnDay(8))
 
 
 // let outSideOf = 0;
@@ -426,6 +425,43 @@
 // console.log(moviesrate);
 
 
-setTimeout(() => {
-  console.log("Hello")
-}, 500);
+// const numbers = [121, 2, 1, 21, 2, 13, 1, 21, 1, 1, 2, 12, 13, 1, 21, 2, 1, 2, 34, 34, 34, 3, 43, 53, 4, 34, 353, 43, 5, 34,];
+
+// const num = numbers.filter(n => {
+//   return n < 10;
+// })
+
+// console.log(numbers.length)  //TODO the len is shorter so has to be put out false
+// console.log(numbers);
+// console.log(num);   /// this has to be put out true
+
+// console.log(numbers.splice(0, numbers.length / 2));
+
+// const words = ["color", "this and that", "and"]
+// words.every(word => {
+//   return word.length === 3;
+// })
+
+// const young = [23,42,32,323,42,33]
+// const adult = young.every(young => young => 18)
+
+// console.log(adult)
+
+
+// const marks = [2, 4, 2, 4, 5, 1, 3,];
+// const pass = marks.every(mark => mark => 0);
+
+// if (pass == true) {
+//   console.log("All the students are pass");
+// } else {
+//   console.log("someone failed");
+// }
+
+// const marks = [23,23,42,2342,2342,23]
+// const 
+
+
+const allEvens = [2, 4, 6, 8];
+const even = allEvens.every( even => even % 2 == 0);
+
+console.log(even)
