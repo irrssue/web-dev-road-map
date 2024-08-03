@@ -1,5 +1,5 @@
-const allimages = document.getElementsByTagName("img");
+const allspan = document.querySelectorAll("span");
 
-for (let img of allimages) {
-  img.src = "https://www.stockvault.net/data/2020/01/18/272608/thumb16.jpg"
-}
+allspan.forEach((span) => {
+  span.style.color = "blue";
+})
